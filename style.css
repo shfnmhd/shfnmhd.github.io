@@ -39,7 +39,7 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 200px;
   text-align: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -99,9 +99,9 @@ button.no-btn {
 
 /* Responsive Design */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   .wrapper {
-    max-width: 300px;
+    max-width: 200px;
   }
   .gif {
     max-width: 200px;
@@ -111,7 +111,7 @@ button.no-btn {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 200px) {
   .wrapper {
     padding: 10px;
   }
