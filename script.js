@@ -21,8 +21,8 @@ function moveNoButton() {
   const noBtnRect = noBtn.getBoundingClientRect();
 
   // Calculate max positions to ensure button stays within wrapper
-  const maxX = wrapperRect.width - noBtnRect.width - 20; 
-  const maxY = wrapperRect.height - noBtnRect.height - 20; 
+  const maxX = wrapperRect.width - noBtnRect.width - 10; 
+  const maxY = wrapperRect.height - noBtnRect.height - 10; 
 
   // Generate random positions
   const randomX = Math.floor(Math.random() * maxX) + 10; 
