@@ -1,0 +1,130 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(
+      45deg,
+      #ff9a9e 0%,
+      #fecfef 99%,
+      #fecfef 100%
+    );
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Wrapper Styles */
+  
+  .wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styles */
+  
+  h2 {
+    font-size: 2em;
+    color: #e94d58;
+    margin: 15px 0;
+  }
+  
+  /* GIF Image Styles */
+  
+  .gif {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  /* Button Group Styles */
+  
+  .btn-group {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Button Styles */
+  
+  button {
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+  }
+  
+  button.yes-btn {
+    background: #e94d58;
+    border: 2px solid #e94d58;
+  }
+  
+  button.no-btn {
+    background: #ffffff;
+    color: #e94d58;
+    border: 2px solid #e94d58;
+    position: relative;
+  }
+  
+  /* Responsive Design */
+  
+  @media only screen and (max-width: 768px) {
+    .wrapper {
+      max-width: 300px;
+    }
+    .gif {
+      max-width: 200px;
+    }
+    button {
+      width: 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .wrapper {
+      padding: 10px;
+    }
+    .gif {
+      margin: 10px auto;
+    }
+    button {
+      height: 30px;
+      font-size: 1em;
+    }
+  }
+  
+  
+  
+  
+  
