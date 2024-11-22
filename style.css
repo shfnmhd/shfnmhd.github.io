@@ -1,4 +1,6 @@
-*{
+/* Global Styles */
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,8 +39,7 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  max-width: 180px;
-  max-width: 100%;
+  max-width: 400px;
   text-align: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -98,11 +99,9 @@ button.no-btn {
 
 /* Responsive Design */
 
-@media only screen and (max-width: 650px) {}
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 768px) {
   .wrapper {
-    max-width: 250px;
-    max-width: 100%;
+    max-width: 300px;
   }
   .gif {
     max-width: 200px;
@@ -112,9 +111,7 @@ button.no-btn {
   }
 }
 
-@media only screen and (max-width: 180px) {}
-
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 480px) {
   .wrapper {
     padding: 10px;
   }
@@ -126,6 +123,8 @@ button.no-btn {
     font-size: 1em;
   }
 }
+
+
 
 
 
